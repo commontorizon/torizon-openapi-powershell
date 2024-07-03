@@ -55,12 +55,15 @@ $Manifest = @{
     Author = 'OpenAPI Generator Team'
     CompanyName = 'openapitools.org'
     Description = 'TorizonPlatformAPI - the PowerShell module for Torizon OTA'
+    Tags = @('Toradex'
+'Torizon'
+'Platform' )
     ProjectUri = 'https://www.torizon.io/'
 
-    ModuleVersion = '0.2.0'
+    ModuleVersion = '0.2.1'
 
     RootModule = 'TorizonPlatformAPI.psm1'
-    Guid = '{7995B80B-0164-4B75-AF34-2646CD4E2C65}' # Has to be static, otherwise each new build will be considered different module
+    Guid = '{0119E71D-56E1-41D5-8B41-16B5D4C4134C}' # Has to be static, otherwise each new build will be considered different module
 
     PowerShellVersion = '6.2'
 

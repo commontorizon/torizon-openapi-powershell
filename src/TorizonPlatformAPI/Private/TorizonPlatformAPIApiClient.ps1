@@ -27,7 +27,7 @@ function Invoke-TorizonPlatformAPIApiClient {
         [hashtable]$CookieParameters,
         [Parameter(Mandatory)]
         [AllowEmptyString()]
-        [string]$Body,
+        [object]$Body,
         [Parameter(Mandatory)]
         [string]$Method,
         [Parameter(Mandatory)]
