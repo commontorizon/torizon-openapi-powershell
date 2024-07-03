@@ -60,10 +60,10 @@ $Manifest = @{
 'Platform' )
     ProjectUri = 'https://www.torizon.io/'
 
-    ModuleVersion = '0.2.1'
+    ModuleVersion = '0.2.2'
 
     RootModule = 'TorizonPlatformAPI.psm1'
-    Guid = '{0119E71D-56E1-41D5-8B41-16B5D4C4134C}' # Has to be static, otherwise each new build will be considered different module
+    Guid = '{3621EFEB-45DF-48FD-826A-246FE7F75FA3}' # Has to be static, otherwise each new build will be considered different module
 
     PowerShellVersion = '6.2'
 
